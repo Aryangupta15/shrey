@@ -609,6 +609,58 @@ header .heroDescription .socialsResume .resumeLink:focus {
   font-size: 0.7rem;
 }
 
+.skillsContainer .educationsection{
+  height: 300px;
+  width: 100%;
+  /* background-color: #222; */
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.educationitems{
+  width: 30%;
+  height: 100%;
+  /* background-color: #1267d0; */
+  padding: 20px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.educationitems .divider{
+  height: 3px;
+  width: 100%;
+  border-radius: 5px;
+  background-color: #222;
+}
+
+.educationitems .img{
+  margin-bottom: 20px;
+}
+
+.educationitems .img img{
+  height: 110px;
+  width: 110px;
+}
+
+.educontent h1{
+  font-weight: 700;
+  font-size: large;
+}
+
+.educationitems .role{
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.educationitems .duration{
+  font-size: 12px;
+  font-weight: 500;
+}
+
 .skillsGrid {
   display: -ms-grid;
   display: grid;
