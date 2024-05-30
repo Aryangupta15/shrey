@@ -628,6 +628,23 @@ header .heroDescription .socialsResume .resumeLink:focus {
   align-items: center;
   justify-content: space-between;
   flex-direction: column;
+
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 30px;
+  margin-top: 40px;
+  border-radius: 15px;
+  -webkit-box-shadow: 0px 14px 28px rgba(134, 151, 168, 0.08);
+          box-shadow: 0px 14px 28px rgba(134, 151, 168, 0.08);
+  -webkit-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
+  border: 1px solid #eee;
+}
+
+.educationitems:hover{
+  -webkit-box-shadow: 5px 14px 28px rgba(134, 151, 168, 0.2);
+            box-shadow: 5px 14px 28px rgba(134, 151, 168, 0.2);
 }
 
 .educationitems .divider{
